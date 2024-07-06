@@ -112,7 +112,7 @@ function Signup() {
               <p className="text-xs text-red-800">{errors.confirm_password}</p>
             ) : null}
           </div>
-          console.log(checkallfields);
+
           <div className="flex justify-center items-center">
             <button
               disabled={!checkallfields()}
